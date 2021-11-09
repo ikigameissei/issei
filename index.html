@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生亀一晟ポートフォリオ</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="hamburger">
+        <p class="menu">MENU</p>
+        <p class="close">ClOSE</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#top">ページトップ</a></li>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#works">作品紹介</a></li>
+          <li><a href="#contact">お問合わせ</a></li>
+        </ul>
+      </nav>
+      <nav class="pc_menu">
+        <ul>
+          <li><a href="#top">ページトップ</a></li>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#works">作品紹介</a></li>
+          <li><a href="#contact">お問合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="main_visual">
+        <img src="img/南部と長沼.jpg" alt="" />
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="inner">
+        <h2 class="section_title">自己紹介</h2>
+        <div class="flex">
+          <img src="img/いちごとかめ.jpg" alt="自分の写真" />
+          <div class="flex_items">
+            <dl>
+              <dt>名前</dt>
+              <dd>生亀一晟</dd>
+              <dt>生年月日</dt>
+              <dd>2000年3月8日</dd>
+              <dt>血液型</dt>
+              <dd>B型</dd>
+              <dt>mail</dt>
+              <dd>isseiikigame0308@icloud.com</dd>
+            </dl>
+            <p class="about_paragraph">
+              日本大学経済学部経済学科の生亀一晟です。<br />
+              学生時代は主に経済について学んできましたが、やりたいことが見つからないまま四年生の夏まで過ごしてしまいました。そんな状況の中でドットインストールというプログラミング学習サービスに出会い、これを仕事にしたいと思いました。実務経験はありませんが、毎日コードに触れることにより少しずつできることを増やしてきました。チームでの開発を経験し、「コードの可読性や保守性を意識して書く」というのがどういうことなのかを知りたいです。
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>スキル</h3>
+          <dl>
+            <dt>技術</dt>
+
+            <dd>詳細</dd>
+          </dl>
+          <dl>
+            <dt>HTML5</dt>
+
+            <dd>頻出のタグを覚えています</dd>
+          </dl>
+          <dl>
+            <dt>CSS</dt>
+
+            <dd>scssを使ってスタイルを行えます。</dd>
+          </dl>
+          <dl>
+            <dt>JavaScript</dt>
+
+            <dd>簡単なイベントを起こせます。</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <div class="inner">
+        <h2 class="section_title">作品紹介</h2>
+        <ul>
+          <li>
+            <a href="https://ikigameissei.github.io/ikigamehoikuenn/"
+              ><h3>生亀保育園</h3>
+              <img
+                src="img/スクリーンショット 2021-11-03 11.06.40.png"
+                alt=""
+              />
+              <p>
+                保育園の架空ホームページサイトです。暖かい配色を心がけ、子供を持つ方々に安心感を与えられるよう工夫しました。
+              </p></a
+            >
+          </li>
+          <li>
+            <a href=" https://ikigameissei.github.io/2021-/"
+              ><h3>生亀家具製作所</h3>
+              <img
+                src="img/スクリーンショット 2021-11-03 11.06.55.png"
+                alt=""
+              />
+              <p>
+                家具を作る会社の架空ホームページサイトです。職人気質なお堅いイメージにすることを心がけました。”厳しさと誠実さの両立”がコンセプトです。
+              </p></a
+            >
+          </li>
+          <li>
+            <a href=" https://ikigameissei.github.io/-iseido/"
+              ><h3>iseido</h3>
+              <img
+                src="img/スクリーンショット 2021-11-03 11.06.12.png"
+                alt=""
+              />
+              <p>
+                化粧品を販売する会社の架空ホームページサイトです。ゆったりとしたアニメーションやスクロールイベントを用いて透明感や清潔さを演出しました。
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="inner">
+        <h2 class="section_title">お問合わせ</h2>
+        <label for="name"> お名前 </label>
+        <input
+          type="text"
+          name="name"
+          size="60"
+          value
+          placeholder="お名前をお名前を入力ください"
+        />
+        <label for="mail"> Mail </label>
+        <input
+          type="text"
+          name="mail"
+          size="60"
+          value
+          placeholder="メールアドレスをご入力ください"
+        />
+        <label for="contents"> お問合わせ内容 </label>
+        <input 
+          class="inp_last"
+          type="text"
+          name="contents"
+          size="60"
+          value
+          placeholder="お問い合わせ内容を入力ください"
+          
+        />
+        <div>
+          <button>確認</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>©&nbsp; ISSEI&nbsp;IKIGAME</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
